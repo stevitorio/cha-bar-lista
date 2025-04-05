@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Adicionar Presentes</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+  <script src="config.js" defer></script>
+  <script src="admin.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Adicionar Presentes</h1>
+    <input type="text" id="novoItem" placeholder="Digite o nome do presente">
+    <button onclick="adicionarItem()">Adicionar</button>
+    <ul id="listaAdmin"></ul>
+  </div>
+</body>
+</html>
